@@ -1,0 +1,257 @@
+{
+	"id": "b933e806-c501-e9af-d032-9e116014c2fc",
+	"name": "APIs",
+	"description": "",
+	"order": [
+		"c480f794-a8c5-e395-62f3-d17b02c3c480",
+		"37176ee1-1855-c4bc-dcd2-3b4cd504132b",
+		"60495c6e-7442-5ea9-fa12-6ce3f39138fa",
+		"66068324-28c8-6b69-b6d4-a7d0baa4df4c",
+		"6cb6081a-593f-4361-2e94-726821e9648d",
+		"e3df0683-8b3e-a2c0-af84-8c8bd4142f4f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1670918729995,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "37176ee1-1855-c4bc-dcd2-3b4cd504132b",
+			"headers": "x-api-key: Thisismykey\nAuthorization: Basic YWRtaW46MTIzNA==\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "Thisismykey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46MTIzNA==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/Codeigniter_restapi/api/demo_emp",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670924666740,
+			"name": "list_emp",
+			"description": "",
+			"collectionId": "b933e806-c501-e9af-d032-9e116014c2fc",
+			"responses": []
+		},
+		{
+			"id": "60495c6e-7442-5ea9-fa12-6ce3f39138fa",
+			"headers": "x-api-key: Thisismykey\nAuthorization: Basic YWRtaW46MTIzNA==\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "Thisismykey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46MTIzNA==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/Codeigniter_restapi/api/demo_emp/store",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "SAI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "Male",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "19",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670924673128,
+			"name": "emp_store",
+			"description": "",
+			"collectionId": "b933e806-c501-e9af-d032-9e116014c2fc",
+			"responses": []
+		},
+		{
+			"id": "66068324-28c8-6b69-b6d4-a7d0baa4df4c",
+			"headers": "x-api-key: Thisismykey\nAuthorization: Basic YWRtaW46MTIzNA==\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "Thisismykey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46MTIzNA==",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/Codeigniter_restapi/api/demo_emp/update/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670924684666,
+			"name": "emp_update",
+			"description": "",
+			"collectionId": "b933e806-c501-e9af-d032-9e116014c2fc",
+			"responses": [],
+			"rawModeData": "{\n        \"name\": \"Abhishek\",\n        \"gender\": \"Male\",\n        \"age\": \"28\",\n        \"created_at\": \"2022-12-13 13:24:03\"\n    }"
+		},
+		{
+			"id": "6cb6081a-593f-4361-2e94-726821e9648d",
+			"headers": "x-api-key: Thisismykey\nAuthorization: Basic YWRtaW46MTIzNA==\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "Thisismykey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46MTIzNA==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/Codeigniter_restapi/api/demo_emp/delete/7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670924693158,
+			"name": "emp_delete",
+			"description": "",
+			"collectionId": "b933e806-c501-e9af-d032-9e116014c2fc",
+			"responses": []
+		},
+		{
+			"id": "c480f794-a8c5-e395-62f3-d17b02c3c480",
+			"headers": "X-API-KEY: Thisismykey\nAuthorization: Basic YWRtaW46MTIzNA==\n",
+			"headerData": [
+				{
+					"key": "X-API-KEY",
+					"value": "Thisismykey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46MTIzNA==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/Codeigniter_restapi/api/demo_project",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670924656109,
+			"name": "demo_project",
+			"description": "",
+			"collectionId": "b933e806-c501-e9af-d032-9e116014c2fc",
+			"responses": []
+		},
+		{
+			"id": "e3df0683-8b3e-a2c0-af84-8c8bd4142f4f",
+			"headers": "x-api-key: Thisismykey\nAuthorization: Basic YWRtaW46MTIzNA==\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "Thisismykey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46MTIzNA==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/demo/api/demo_emp/edit/5",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b933e806-c501-e9af-d032-9e116014c2fc",
+			"data": null,
+			"dataMode": "params",
+			"name": "edit_emp",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1670923238676,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
